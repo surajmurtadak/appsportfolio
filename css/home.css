@@ -97,7 +97,7 @@
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: calc(20px + 0.8vw);
+  font-size: calc(21px + 0.8vw);
   margin-top: calc(70px + 1vw);
   margin-bottom: calc(18px + 1vw);
   color: rgba(223, 223, 223, 0.9);
@@ -107,7 +107,7 @@
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: calc(8px + 0.8vw);
+  font-size: calc(12px + 0.6vw);
   color: rgba(204, 204, 204, 0.815);
 }
 
