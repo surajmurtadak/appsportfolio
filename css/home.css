@@ -1,3 +1,5 @@
+/* under-maintenace */
+
 /* navbar code */
 .navbar-bg {
   background: #000000;
@@ -8,8 +10,8 @@
 .navbar-name {
   padding: calc(1px + 0.5vw);
   font-size: calc(15px + 0.4vw);
-  font-family: "Open Sans";
-  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
   color: #ffffff;
 }
 .nav-margin {
@@ -27,20 +29,20 @@
 
 .nav-text-align {
   display: -webkit-box;
-  /* display: flex; */
   justify-content: flex-end;
-  /* -webkit-box-align: end; */
 }
 
 .nav-text-color {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   padding: 0.3125rem 0rem;
   /* padding-bottom: 0.3125rem; */
   margin-right: 1rem;
   text-decoration: none;
   font-size: calc(8px + 0.4vw);
-  line-height: 0.938rem;
+  /* line-height: 0.938rem; */
   margin-left: 0.3rem;
-  color: #bebebe;
+  color: #c7c7c7;
 }
 
 /* nav bar toggler */
@@ -84,9 +86,6 @@
 }
 
 /* header section */
-header::before {
-  content: "";
-}
 
 .header-section {
   width: auto;
@@ -95,9 +94,9 @@ header::before {
 }
 
 .header1 {
-  font-family: "DM Sans";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: calc(20px + 0.8vw);
   margin-top: calc(70px + 1vw);
   margin-bottom: calc(18px + 1vw);
@@ -105,8 +104,9 @@ header::before {
 }
 
 .header2 {
-  font-family: "DM Sans";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size: calc(8px + 0.8vw);
   color: rgba(204, 204, 204, 0.815);
 }
@@ -157,14 +157,14 @@ header::before {
 #hero {
   width: 100%;
   background: url("https://surajmurtadak.github.io/appsportfolio/icons/image2.png");
-  /* position: relative; */
+  position: relative;
   background-size: cover;
   padding: 10px 0 0 0;
   border: none;
 }
 #hero:before {
   content: "";
-  /* position: absolute; */
+  position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
@@ -254,10 +254,14 @@ header::before {
 /* progress list */
 
 .my-apps-font {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-style: italic;
   text-align: center;
   background-color: rgb(255, 255, 255);
   height: 3.8rem;
   font-size: calc(20px + 0.8vw);
+  margin: 1.3rem 0rem 1.1rem 0rem;
   color: rgb(0, 0, 0);
   padding-top: 1.2rem;
 }
@@ -273,14 +277,14 @@ header::before {
   margin: 0.3rem;
   background-color: rgb(1, 1, 14);
   color: #ffffff;
-  padding: 0.2rem 1rem;
+  padding: 0.3rem 1rem;
   width: auto;
   height: auto;
   text-align: center;
-  font-family: "DM Sans";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-size: calc(7px + 0.8vw);
-  font-weight: 200;
+  font-weight: 400;
   border-radius: 6px;
 }
 .para-color {
@@ -329,7 +333,8 @@ header::before {
   text-align: center;
 }
 .app-text-content {
-  font-family: "DM Sans";
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: calc(12px + 0.3vw);
   height: auto;
@@ -342,7 +347,8 @@ header::before {
 .app-text-content span {
   font-size: calc(10px + 0.2vw);
   margin: 0px 5px;
-  color: #616161cc;
+  font-weight: 400;
+  color: #464646cc;
 }
 p {
   margin: 0.2rem 0.5rem 1rem 0.5rem;
