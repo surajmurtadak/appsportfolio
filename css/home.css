@@ -336,7 +336,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: calc(12px + 0.3vw);
+  font-size: calc(13px + 0.3vw);
   height: auto;
   width: 14rem;
   color: #353535;
@@ -345,7 +345,7 @@
   padding: 0rem 0.1rem;
 }
 .app-text-content span {
-  font-size: calc(10px + 0.2vw);
+  font-size: calc(11px + 0.2vw);
   margin: 0px 5px;
   font-weight: 400;
   color: #464646cc;
